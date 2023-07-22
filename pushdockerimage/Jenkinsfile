@@ -8,7 +8,7 @@ pipeline {
             steps {
                 checkout scm
                 sh 'ls *'
-		sh 'cat *'    
+		sh 'echo *'    
             }
         }
         stage('Build Image') {
